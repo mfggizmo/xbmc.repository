@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.teamstream-win32"
+       name="Teamstream.to"
+       version="0.1.0"
+       provider-name="siriuz">
+  <requires>
+    <import addon="xbmc.python" version="1.0" />
+	<import addon="script.module.lxml-win32" version="3.1.2" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="teamstream.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Live-TV provided by Teamstream.to</summary>
+    <description>
+Steps to be done before using the teamstream addon:
+--------------------------------------------------------------------------------
+* get an account at www.teamstream.to
+* buy elite access
+* update librtmp.dll (see README)
+* enter your login and password in the addon settings
+* enjoy live television!
+    </description>
+  </extension>
+</addon>
+
+<addon id="repository.addons.siriuz" name="Siriuz Add-on Repository" version="1.0.0" provider-name="siriuz">
+	<extension point="xbmc.addon.repository" name="Siriuz Add-on Repository">
+		<info compressed="false">https://raw.github.com/siriuzwhite/xbmc.repository/master/repository/addons.xml</info>
+		<checksum>https://raw.github.com/siriuzwhite/xbmc.repository/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/siriuzwhite/rxbmc.repository/master/repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from github.com/siriuzwhite</summary>
+		<description>Download and install addons from siriuzwhite repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.lxml-win32"
+       name="Python lxml library"
+       version="3.1.2"
+       provider-name="siriuz">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>wingl windx</platform>
+  </extension>
+</addon>
+</addons>
