@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.teamstream-win32"
        name="Teamstream.to"
-       version="0.2.0"
+       version="0.2.1"
        provider-name="siriuz">
   <requires>
     <import addon="xbmc.python" version="1.0" />
