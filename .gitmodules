@@ -1,9 +1,9 @@
 [submodule "addons/plugin.video.teamstream-win32"]
 	path = addons/plugin.video.teamstream-win32
-	url = https://github.com/siriuzwhite/plugin.video.teamstream-win32.git
+	url = https://github.com/siriuzwhite/plugin.video.teamstream.git
 [submodule "addons/script.module.lxml-win32"]
 	path = addons/script.module.lxml-win32
-	url = https://github.com/siriuzwhite/script.module.lxml-win32.git
+	url = https://github.com/siriuzwhite/script.module.lxml.git
 [submodule "addons/repository.addons.siriuz"]
 	path = addons/repository.addons.siriuz
 	url = https://github.com/siriuzwhite/repository.addons.siriuz.git
