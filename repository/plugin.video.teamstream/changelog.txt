@@ -1,0 +1,17 @@
+version 0.3.0 - 04/23/2013
+  * Plugin nun Platform-Neutral, da lxml binary Paket entfernt
+  * Abhängigkeiten müssen nun manuell installiert werden (siehe Wiki)
+
+version 0.2.1 - 04/21/2013
+  * Paketierungsfehler behoben
+
+version 0.2.0 - 04/20/2013
+  * Event Planer Funktion hinzugefügt
+  * Fehlerbehandlung und Logging verbessert
+
+version 0.1.1 - 04/19/2013
+  * Login Probleme behoben
+  * Verbesserung der Fehlerbehandlung
+
+version 0.1.0 - 04/18/2013
+  * initiales Release
