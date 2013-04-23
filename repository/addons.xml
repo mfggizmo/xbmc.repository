@@ -38,4 +38,18 @@ Kurzanleitung für die Benutzung des teamstream.to XBMC plugin:
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="script.module.lxml-win32"
+       name="Python lxml library"
+       version="3.1.2"
+       provider-name="siriuz">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>wingl windx</platform>
+  </extension>
+</addon>
 </addons>
