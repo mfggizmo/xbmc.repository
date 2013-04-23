@@ -6,7 +6,6 @@
        provider-name="siriuz">
   <requires>
     <import addon="xbmc.python" version="1.0" />
-	<import addon="script.module.lxml" version="3.1.2" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="teamstream.py">
@@ -16,12 +15,12 @@
     <platform>all</platform>
     <summary>Live-TV powered by Teamstream.to</summary>
     <description>
-Kurzanleitung:
+Kurzanleitung für die Benutzung des teamstream.to XBMC plugin:
 --------------------------------------------------------------------------------
-* Besorg dir einen Account bei Teamstream.to
-* Hol dir den Elite Zugang
-* Update deine librtmp.dll (siehe README)
-* Username und Passwort in den Addon Settings eingeben!
+* Besorge dir einen invite für www.teamstream.to
+* Kaufe dir einen Elite Zugang
+* Folge den Installationsanweisungen im Wiki: https://github.com/siriuzwhite/plugin.video.teamstream/wiki
+* Gib deinen Benutzernamen und dein Passwort in den Plugin Einstellungen ein.
 * Viel Spaß beim Sky schauen ;)
     </description>
   </extension>
@@ -38,19 +37,5 @@ Kurzanleitung:
 		<description>Download and install addons from siriuzwhite repository.</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.lxml"
-       name="Python lxml library"
-       version="3.1.2"
-       provider-name="siriuz">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-  </extension>
 </addon>
 </addons>
